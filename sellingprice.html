@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="selling.css">
+    </head>
+    <body>
+        <img src="Background image.jpg" img>
+        <h1>Box price calculation</h1>
+        <h3>Calculation for</h3>
+        <ol>
+            <li class="measure">measure ( mm )</li>
+            <li class="measure">measure (inches)</li>
+            <p>1 inches =  25.4mm</p>
+        </ol>
+             <fieldset>
+                <legend>Measure for mm</legend>
+                <strong>Box's Length</strong><br>
+                <input id="lengthmm" type="number" placeholder="mm"/><br>
+                <strong>Box's Width  </strong><br>
+                <input id="widthMm" type="number" placeholder="mm"/><br>
+                <strong>Box's Height </strong><br>
+                <input id="heightMm" type="number" placeholder="mm"/><br>
+                <strong>Sheet Price</strong><br>
+                <input id="sheetprice" type="number"/><br>
+                <strong>Profit</strong><br>
+                <input id="profit" type="number"/><br>
+                <p id="answermm">********<br>********<br>********</p>
+
+                <button onclick="calculate()">Calculate</button>
+                
+            </fieldset>
+            
+        <script src="selling.js"></script>
+    </body>
+</html>
