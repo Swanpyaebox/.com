@@ -56,6 +56,9 @@ function calculate(){
     
     
    const adjustBoxPrice=boxPrice-+-profit-20;
+    el.innerHTML=adjustBoxPrice;
+
+    
    el.innerHTML="<em>Sheet Width</em> = "+"<strong>"+sheetwidth+ " mm</strong><br>"+
    "<em>Sheet Length</em> = "+"<strong>"+sheetlength+" mm</strong><br>"+
    "<em>Sheet Quantity</em> = "+"<strong>"+sheetQuantity+" Sheet</strong><br>"+
