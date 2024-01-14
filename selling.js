@@ -62,6 +62,7 @@ function calculate(){
    el.innerHTML="<em>Sheet Width</em> = "+"<strong>"+sheetwidth+ " mm</strong><br>"+
    "<em>Sheet Length</em> = "+"<strong>"+sheetlength+" mm</strong><br>"+
    "<em>Sheet Quantity</em> = "+"<strong>"+sheetQuantity+" Sheet</strong><br>"+
-   "<br><strong>BoxPrice</em> = "+"</strong>"+adjustBoxPrice.toFixed(0)+" Kyats</strong><br>"+adjustBoxPrice;
+   "<br><strong>BoxPrice</em> = "+"</strong>"+adjustBoxPrice.toFixed(0)+" Kyats</strong><br>"+
+    "<br><u><strong>Remark</strong></u><br><blod>   Box Price calculate based on actual usage of sheets and length.Therefore, price will be different <strong>+</strong> or <strong>-</strong> 10 kyat on your calculation. </blod>";       
          
 }
