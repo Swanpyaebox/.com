@@ -7,6 +7,7 @@ function calculate(){
     const heightMn=document.getElementById("heightMm").value;
     
     const sheetlength=((lengthmm-+-widthMm)*2)+35;
+    const sheetwidthproduction=widthMm-+-heightMn+15;
     
     let sheetwidth=widthMm-+-heightMn;
     let sheetQuantity=1;
@@ -59,9 +60,12 @@ function calculate(){
     el.innerHTML=adjustBoxPrice;
 
     
-   el.innerHTML="<em>Sheet Width</em> = "+"<strong>"+sheetwidth+ " mm</strong><br>"+
-   "<em>Sheet Length</em> = "+"<strong>"+sheetlength+" mm</strong><br>"+
-   "<em>Sheet Quantity</em> = "+"<strong>"+sheetQuantity+" Sheet</strong><br>"+
+   el.innerHTML="<ul>"+
+   "<li><em>Sheet Length</em> = "+"<strong>"+sheetlength+" mm</strong><br></li>"+
+   "<li><em>Sheet Width</em> = "+"<strong>"+sheetwidth+ " mm</strong></il>"+
+   " ( <em>Sheet width for operation    = </em>"+"<strong>"+sheetwidthproduction+"mm</strong> )<br>"+
+   "<li><em>Sheet Quantity</em> = "+"<strong>"+sheetQuantity+" Sheets</strong></li>"+
+   "</ul>"+
    "<br><strong>BoxPrice</em> = "+"</strong>"+adjustBoxPrice.toFixed(0)+" Kyats</strong><br>"+
     "<br><u><strong>Remark</strong></u><br><blod>   Box Price calculated based on actual usage of sheets and length.Therefore, price will be different (<strong>+</strong>) or (<strong>-</strong>) 10 kyat on your calculation. </blod>";       
          
