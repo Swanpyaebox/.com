@@ -1,6 +1,8 @@
 h1{
-    color: dodgerblue;
+    color: goldenrod;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
    }
     img{
         height: 200px;
