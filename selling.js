@@ -33,7 +33,7 @@ function calculate(){
         sheetwidth=(widthMm-+-heightMn)*2;
         
     }else if (sheetwidth>=300) {
-        sheetwidth=(widthMm-+-heightMn)*3;;
+        sheetwidth=(widthMm-+-heightMn)*3;
         
     }else if (sheetwidth>=225) {
         sheetwidth=(widthMm-+-heightMn)*4;
