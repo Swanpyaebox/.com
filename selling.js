@@ -41,7 +41,7 @@ function calculate(){
         sheetwidth=(widthMm-+-heightMn)*5;
     }
     
-    if (sheetwidth>=1800) {
+    if (sheetwidth<=1800) {
         sheetwidth=sheetwidth+70;
     }else{
         sheetwidth=sheetwidth+35;
